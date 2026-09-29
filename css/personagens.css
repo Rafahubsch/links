@@ -14,14 +14,7 @@ header {
     padding-right: 20px;
     align-items: center;
 }
-#ir-equipes{
-    padding: 1px;
-    background-color: rgba(59, 89, 226, 0.5);
-    border-radius: 20px;
-    border-style: solid;
-    border-color: rgba(73, 88, 244, 0.5);
-    font-weight: bold;
-}
+
 
 a {
     text-decoration: none;
@@ -49,28 +42,8 @@ a {
 
 }
 
-#menu-header p{
-    color:black;
-}
-
 main{
     padding: 20px;
-}
-
-#hero{
-    background-color: rgb(124, 166, 245);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px;
-}
-
-texto-hero h1{
-    font-size: 80px;
-}
-
-texto-hero p{
-    font-size: 16px;
 }
 
 #hero{
@@ -97,14 +70,21 @@ texto-hero p{
 #galeria-texto{
     margin-top: 50px;
 }
-
+#galeria-imgs{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
 .card {
-    background-color: rgb(109, 169, 247);
+    background-color: rgba(57, 123, 245, 0.5);
     width: 30%;
     margin-top: 10px;
     border-radius: 10px;
     border-style: solid;
-    border-color: rgb(116, 177, 233);
+    border-color:rgba(12, 56, 253, 0.5);;
 }
 
 .card article {
@@ -115,16 +95,20 @@ texto-hero p{
     width: 100%;
     border-radius: 10px;
 }
-
-#galeria-imgs{
-    display: flex;
-    gap: 10px;
-    align-content: center;
-    justify-content: space-between;
-    margin-top: 20px;
-    flex-wrap: wrap;
-}
-
 .card-texto {
     padding: 10px;
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(70, 108, 234, 0.85);
+    color: rgb(11, 11, 11);
+    align-items: center;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.link {
+    font-weight: bold;
+}
+
